@@ -1,0 +1,129 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/_350sdp"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="@dimen/_600sdp"
+        android:layout_height="@dimen/_500sdp"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:background="@color/white"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:id="@+id/customImage"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_65sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:text="first"
+                android:id="@+id/customText"
+                android:layout_toRightOf="@+id/customImage">
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/customText2"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:textColor='@color/red'
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customText"
+                android:text="first"
+                android:layout_toRightOf="@+id/customImage"
+                android:textSize="@dimen/_13sdp"></TextView>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_13sdp"
+        android:text="+"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:layout_marginLeft="@dimen/_30sdp">
+    </Button>
+
+
+    <TextView
+
+        android:id="@+id/qty"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/_260sdp"
+        android:text="1"
+        android:layout_marginLeft="@dimen/_120sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"></TextView>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:layout_marginLeft="@dimen/_150sdp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/add"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:text="Add to cart"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:backgroundTint="@color/red"
+        android:layout_marginRight="@dimen/_30sdp">
+
+    </Button>
+
+    <Button
+        android:minHeight="0dp"
+        android:id="@+id/cancel"
+        android:text="cancel"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_160sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        >
+
+    </Button>
+
+
+</RelativeLayout>
+
